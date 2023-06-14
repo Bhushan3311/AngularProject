@@ -1,0 +1,75 @@
+<p>hedaer works!</p>
+<p> hi evry </p><br>
+<!-- <h1 >{{a}} good afternoon.... </h1>
+
+
+<br>
+<img [src]="img" alt="opps" width="500px" height="300px">
+
+<br>
+  <img src="{{newB}}" alt="opps"  width="500px" height="300px"> -->
+<!-- 
+  <br>
+  <div>
+ <label for="id1">Num1</label>
+  <input type="number" name="num1"id="id1" (change)="set1no($event)"><br>
+
+  <label for="id2">Num2</label>
+  <input type="number" name="num2"id="id2" (change)="set2no($event)"><br><br>
+
+</div>
+<br><br>
+<div>
+  <button (click)="add()">Add</button> 
+  <button>subtract</button> 
+  <button>multiply</button> 
+  <button>divison</button>
+
+  
+</div><br>
+
+<label>result:</label>
+<input type="number" [value]="result"> -->
+ 
+
+<label> Enter 1st value</label> 
+ <input type="number" (change)="set1($event)">  
+ <!-- <input type="number" [(ngModel)]="x"> -->
+<br>
+<br>
+<label> Enter 2nd value</label> 
+<input type="number" (change)="set2($event)"> 
+ <!-- <input type="number" [(ngModel)]="y"> -->
+<br>
+<br>
+<br>
+<div class="btn">
+    <button (click)="add()"> Add</button>
+    <button (click)="sub()"> Sub</button>
+   <button (click)="multy()"> multy</button>
+    <button (click)="divide()"> divide</button>  
+    </div>
+    <br>
+<label> result</label>
+<input type="number" [value]="result">
+<br>
+<br>
+<br>
+<hr><hr>
+
+<label id="dob">Date of Birth</label>
+<input type="date" name="dateofbirth" id="dob" (change)="findage($event)">
+<br><br>
+<label for="age"> Age</label>
+<input type="text" name="age" id="age" [value]="age">
+
+
+<hr><hr>
+
+<!-- <br><br>
+<label for="fname">first name</label>
+<input type="text" name="f_name" id="fname" [value]="first_name">
+{{first_name}} -->
+
+
+<input type="text">
